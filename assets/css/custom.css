@@ -79,11 +79,11 @@ a:hover {
 }
 
 .special {
-    background-color: rgba(255,255,250,0.4);
+    background-color: rgba(128,128,128,0.4);
     color: white;
-    border-left: 0.2em solid rgba(255,255,250,0.4);
-    border-right: 0.2em solid rgba(255,255,250,0.4);
-	border-radius: 10px;
+    border-left: 0.2em solid rgba(128,128,128,0.4);
+    border-right: 0.2em solid rgba(128,128,128,0.4);
+    border-radius: 10px;
 }
 
 .special a{
