@@ -201,7 +201,26 @@
 <script src="assets/js/typeit.min.js"></script>
 <script src="assets/js/jquery.fullPage.min.js"></script>
 -->
-    
+
+<script>
+$(document).ready(function(){
+    $("#i1").click(function(){
+        $(this).hide();
+		$("#i4").hide();
+    });
+	$("#i2").click(function(){
+		$(this).hide();
+		$("#i4").hide();
+    });
+	$("#i3").click(function(){
+		$(this).hide();
+		$("#i4").hide();
+    });
+	$("#bunny").click(function(){
+		$("#i1,#i2,#i3,#i4").show();
+    });
+});
+</script>
 <script type="text/javascript">
     $(document).ready(function () {
         $('#fullpage').fullpage({
